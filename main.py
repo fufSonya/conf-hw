@@ -5,8 +5,8 @@ import argparse
 import sys
 from pathlib import Path
 
-from config_translator import translate
-from config_translator.errors import TranslationError
+from config-translator import translate
+from config-translator.errors import TranslationError
 
 
 def build_arg_parser() -> argparse.ArgumentParser:

@@ -1,0 +1,9 @@
+allocations = [25, 25, 50]
+
+[limits]
+daily = 100000
+monthly = 2500000
+
+[risk]
+max_drawdown_pct = 20
+var_window = 30
